@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="proprio">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="proprio" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorPrimary">@color/primary</item>
+    </style>
+
+    <style name="MyCustomToolBar" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#FFF</item>
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#673AB7</item>
+        <item name="colorPrimaryDark">#512DA8</item>
+        <item name="colorAccent">#FF4081</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+
+
+
+</resources>
